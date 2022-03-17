@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1D2437;
+    background-image: url(/assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.heroArea header ul{
+    display: flex;
+}
+
+.heroArea header ul{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.heroArea header ul a{
+    color: #ffffff66;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.heroArea header ul a:hover{
+    color: #ffffffff;
+}
+
+.container {
+    max-width: 1070px;
+    margin: auto;
+    color: #ffffff;
+}
+
+header {
+    margin: 0;
+}
+
+.heroArea {
+    display: flex;
+    align-items: center;
+}
+
+.heroArea .leftside {
+    flex: 1;
+}
+
+.heroArea .leftside h1 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    margin: 80px 0 40px 0;
+}
+
+.heroArea .leftside .subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    color:#999;
+    margin-bottom: 20px;
+}
+
+.heroArea .leftside h1, .subtitle {
+    max-width: 600px;
+}
+
+.heroArea .leftside .form {
+    margin-bottom: 20px;
+    
+}
+
+.heroArea .leftside .form form {
+    width: 100%;
+}
+
+.heroArea .leftside .form input {
+    border: 1px solid #ffffff66;
+    background: transparent;
+    height: 40px;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    width: 300px;
+    padding: 0 10px;
+    margin-left: 0px;
+}
+
+.heroArea .leftside .form button {
+    height: 40px;
+    border: 0;
+    background-color: #0071b7;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.heroArea .leftside .techs {
+    margin-bottom: 80px;
+}
+
+.heroArea .leftside .techs img {
+    margin-right: 24px;
+}
+
+.heroArea .rightside {
+    flex:1;  
+}
+
+.heroArea .rightside img {
+    margin: 0 auto;
+  
+}
+   
+
+    
+
+    
+
+
